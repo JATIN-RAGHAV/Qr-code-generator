@@ -47,9 +47,21 @@ input{
     padding:0px 20px;
     font-size: 20px;
     transition:background-color 0.5s;
+    color:white;
 }
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.642);
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
 input:hover{
     background-color: rgb(80,80,80);
+}
+
+input:hover::placeholder{
+    color:rgba(255, 255, 255, 1)
 }
 
 button{
