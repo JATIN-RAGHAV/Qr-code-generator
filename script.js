@@ -11,7 +11,7 @@ const getQr = ()=>{
 }
 
 const sendAPIreq = (text)=>{
-    const url = `http://api.qrserver.com/v1/create-qr-code/?data=${text}&size=200x200`
+    const url = `https://api.qrserver.com/v1/create-qr-code/?data=${text}&size=200x200`
     return fetch(url)
 }
 
